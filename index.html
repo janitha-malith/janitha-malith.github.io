@@ -1,20 +1,45 @@
-
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Webpage of Janitha Fernando</title>
+		<style>
+			/* Container for the main content */
+			.container {
+				width: 80%; /* Container takes up 80% of the page width */
+				max-width: 1200px; /* Prevents container from being too wide */
+				margin: 20px auto; /* Centers the container on the page */
+			}
+
+			/* Styling for the image container */
+			.image-container {
+				float: right; /* Floats the image to the right */
+				width: 300px; /* Sets the width of the image container */
+				margin-left: 20px; /* Adds space between the image and text */
+				margin-bottom: 20px; /* Adds space below the image */
+			}
+
+			/* Ensures image fits within its container */
+			.image-container img {
+				width: 100%; /* Makes the image fill the container */
+				height: auto; /* Maintains the image's aspect ratio */
+				border-radius: 8px; /* Optional: adds rounded corners */
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+			}
+
+			/* Clearfix to ensure proper layout */
+			.container::after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+		</style>
 	</head>
 	<body style="background-color:rgb(243, 244, 237)">
-		<b style="font-size: 40px;font-family:sans-serif">Aswedige Janitha Malith Fernando 
-		</b><br>
+		<b style="font-size: 40px;font-family:sans-serif">Aswedige Janitha Malith Fernando</b><br>
 		<p style="font-size: 20px;text-align:justify;font-family:'Times New Roman', serif">
-
-			
 			I'm an aspiring mathematician with a passion for mathematical logic and 
-			its applications in mathematics and computer science. I'm actively
-			seeking PhD opportunities in mathematical logic and computer science. 
-			
+			its applications in mathematics and computer science. I'm actively seeking PhD opportunities in mathematical logic and computer science. 
 			I hold a Master's degree from the University of Hawai'i, where 
 			my advisor was <a href="https://math.hawaii.edu/~ross/">Professor David Ross</a>. 
 			My research focused on Model Theory and its applications, 
@@ -23,15 +48,16 @@
 
 			Prior to exploring probability logics, I worked on Skolem's 
 			problem of exponential functions. 
-			</p>
+		</p>
 
+		<!-- Image Section - Floating on the right -->
 		<div class="image-container">
-     			 <img src="https://janitha-malith.github.io/IMG_5385.jpg" alt="Your Picture" width="300" height="400">
-            	</div>
+			<img src="https://janitha-malith.github.io/IMG_5385.jpg" alt="Your Picture" width="300" height="400">
+		</div>
 
-			<b style="font-size: 30px">Past Teaching</b><br>
-            <b style="font-size:20px"><em>University of Hawai'i</em></b>
-			<p style="font-size: 16px">
+		<b style="font-size: 30px">Past Teaching</b><br>
+		<b style="font-size:20px"><em>University of Hawai'i</em></b>
+		<p style="font-size: 16px">
 			<ul>
 				<li>Spring 2023 : MATH 100 Teaching Assistant</li>
 				<li>Fall 2022: MATH 241 Teaching Assistant</li>
@@ -42,111 +68,41 @@
 				<li>Summer 2020: MATH 241 Instructor</li>
 				<li>Spring 2020: MATH 140 Teaching Assistant</li>
 				<li>Fall 2019: MATH 241 Teaching Assistant</li>
-
 			</ul>	
 
-            <b style="font-size:20px"><em>University of Colombo</em> (Teaching Assistant and Grader)</b>
+			<b style="font-size:20px"><em>University of Colombo</em> (Teaching Assistant and Grader)</b>
 			<p style="font-size: 16px">
-			<ul>
-				<li>Differential Equations I & II</li>
-                <li>Graph Theory</li>
-                <li>Calculus I & II</li>
-                <li>Logic & Introduction to Analysis</li>
-                <li>Linear Algebra</li>
-                <li>FM 1002 & FM 2004 Financial Mathematics courses</li>
-
-			</ul>	
-
-
-			
-
+				<ul>
+					<li>Differential Equations I & II</li>
+					<li>Graph Theory</li>
+					<li>Calculus I & II</li>
+					<li>Logic & Introduction to Analysis</li>
+					<li>Linear Algebra</li>
+					<li>FM 1002 & FM 2004 Financial Mathematics courses</li>
+				</ul>	
+			</p>
 		</p>
+
 		<b style="font-size: 30px">Talks</b><br>
 		<p style="font-size: 18px">
-			
 			<ul>
-				
-				<li> Introduction to Modal Logic: Filtrations and Finite Model Property of S5, 
-					UH Logic Seminar Fall 2021.
-				<li> A discussion of the paper "Inference Rules for Probability Logic" by Marija Boricic,
-					UH Logic Seminar Fall 2021.
-                <li> A Monadic Logic for Capacity Quantifiers, Master's Defence Fall 2024.
-					
+				<li> Introduction to Modal Logic: Filtrations and Finite Model Property of S5, UH Logic Seminar Fall 2021.</li>
+				<li> A discussion of the paper "Inference Rules for Probability Logic" by Marija Boricic, UH Logic Seminar Fall 2021.</li>
+				<li> A Monadic Logic for Capacity Quantifiers, Master's Defence Fall 2024.</li>
 			</ul>
-
-
 		</p>
+
 		<b style="font-size: 30px">Selected Slides</b><br>
 		<p style="font-size: 18px">
 			<ul>
-
-				
-				<li> <a href=" https://janitha-malith.github.io/presentations/The_Alpha_Theory_JMF.pdf" target="_blank">
-					Alpha Theory by Benci and Di Nasso</a>
-				<li> <a href=" https://janitha-malith.github.io/presentations/Surreal_Numbers-JM.pdf" target="_blank">
-					Surreal Numbers</a>
-				<li> <a href=" https://janitha-malith.github.io/presentations/Levitz.pdf" target="_blank">
-					Skolem's Problem of Arithmetic Functions-Hilbert Levitz</a>
-				<li> <a href=" https://janitha-malith.github.io/presentations/Modal_Logic_Presentation.pdf" target="_blank">
-					Modal Invariance</a>
-				<li> <a href=" https://janitha-malith.github.io/presentations/Inference_Rules_for_Probability_Logic.pdf" target="_blank">
-					Inference Rules for Probability Logic by Marija Boricic</a>
-				<li> <a href=" https://janitha-malith.github.io/presentations/FMP_of_S5.pdf" target="_blank">
-					Filtrations and Finite Model Property of S5</a>
-				<li> <a href=" https://janitha-malith.github.io/presentations/Capacity_Quantifiers_Slides__Copy_.pdf" target="_blank">
-					Capacity Quantifiers Slides</a>
-
+				<li> <a href="https://janitha-malith.github.io/presentations/The_Alpha_Theory_JMF.pdf" target="_blank">Alpha Theory by Benci and Di Nasso</a></li>
+				<li> <a href="https://janitha-malith.github.io/presentations/Surreal_Numbers-JM.pdf" target="_blank">Surreal Numbers</a></li>
+				<li> <a href="https://janitha-malith.github.io/presentations/Levitz.pdf" target="_blank">Skolem's Problem of Arithmetic Functions-Hilbert Levitz</a></li>
+				<li> <a href="https://janitha-malith.github.io/presentations/Modal_Logic_Presentation.pdf" target="_blank">Modal Invariance</a></li>
+				<li> <a href="https://janitha-malith.github.io/presentations/Inference_Rules_for_Probability_Logic.pdf" target="_blank">Inference Rules for Probability Logic by Marija Boricic</a></li>
+				<li> <a href="https://janitha-malith.github.io/presentations/FMP_of_S5.pdf" target="_blank">Filtrations and Finite Model Property of S5</a></li>
+				<li> <a href="https://janitha-malith.github.io/presentations/Capacity_Quantifiers_Slides__Copy_.pdf" target="_blank">Capacity Quantifiers Slides</a></li>
 			</ul>
-
-
 		</p>
 
-		</p>
-		<b style="font-size: 30px">Selected Projects</b><br>
-		<p style="font-size: 18px">
-			<ul>
-
-				
-				<li> <a href=" https://janitha-malith.github.io/projects/LEAN_PROJECT.pdf" target="_blank">
-					A Class Project on LEAN 3</a>
-				<li> <a href=" https://janitha-malith.github.io/projects/Parking_Functions_And_Labeled_Trees-JM.pdf" target="_blank">
-					A Class Project on Parking Functions</a>
-				<li> <a href=" https://janitha-malith.github.io/thesis_Janitha.pdf" target="_blank">
-					Master's Project</a>
-					
-
-			</ul>
-
-
-		</p>
-
-		</p>
-		<b style="font-size: 30px">Some Interesting Stuff</b><br>
-		<p style="font-size: 18px">
-			<ul>
-				
-				<li> <a href=" https://www.youtube.com/watch?v=b6GLCTh5ARI " target="_blank">Making Sense of Infinity
-				by Asaf Karagila</a>
-
-				<li> <a href="https://www.youtube.com/playlist?list=PLg5tKDNI_a86OO6J9HuIngyROBsUqcf_z" target="_blank">
-				Lectures in the Philosophy of Maths by Joel Hamkins</a>
-
-				<li> <a href="https://existentialcomics.com" target="_blank">Existential Comics</a>
-			</ul>
-
-
-		</p>
-		</p>
-			<b style="font-size: 30px">Email</b><br>
-			<p style="font-size: 20px">
-				janitha [at] hawaii [dot] edu 
-			</p>
-
-		
-	</body>
-
-		
-
-
-	
-</html>
+		<b style="fon
